@@ -7,10 +7,10 @@
         private $dbName;
 
         public function connect(){
-            $this->serverName = "127.0.0.1";
-            $this->userName = "root";
-            $this->password = "1234567890";
-            $this->dbName = "smsplatform";
+            $this->serverName = "serverName";
+            $this->userName = "userName4DB";
+            $this->password = "pwd4DB";
+            $this->dbName = "nameOfDb";
 
             try {
                 $dsn = "mysql:host=" .$this->serverName.";dbname=". $this->dbName;
